@@ -1,0 +1,194 @@
+:root {
+    --background-color: #FFFFFF;
+    --text-color: #434455;
+    --brand-color: #2E2F42;
+    --logo-color: #4d5ae5;
+    --background-color-potfolio: #F4F4FD;
+}
+
+body {color: #434455;
+background-color: var(--background-color);
+}
+
+.body-studio {font-family: 'Roboto', sans-serif;
+}
+
+
+/*antet*/
+
+.nav-bar {
+    background-color: var(--background-color);
+}
+
+.logo {font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color);
+}
+
+.link {text-decoration: none;
+}
+.logo-span-dark {color: var(--brand-color);
+}
+
+.list {list-style: none;
+}
+
+.nav-link {font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--brand-color);
+}
+.nav-link:hover,
+.nav-link:focus {color: #404bbf;
+}
+
+.address {
+    color: var(--text-color);
+    background-color: var(--background-color);
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+
+}
+
+.link-contacts {font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+.link-contacts:hover,
+.link-contacts:focus {color: #404bbf;}
+
+
+
+
+
+/* studio page styles */
+
+
+
+.hero-section {
+    background-color: var(--brand-color);
+}
+
+.hero-titile {font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.order-button {background-color: #4D5AE5;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff;
+cursor: pointer;
+}
+
+.order-button:hover,
+.order-button:focus {background-color: #404bbf;
+}
+
+/* a doua sectiune */
+
+
+
+.second-and-fourth-section-mini-titles {color: var(--brand-color);
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.second-and-fourth-section-paragraph {color: var(--text-color);
+    background-color: #FFFFFFFF;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* sectiunea a treia */
+
+.third-section {background-color: var(--background-color);}
+
+.third-and-fourth-section-title {color: var(--brand-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/* seciunea a patra */
+
+.fourth-section {background-color: #F4F4FD;}
+
+.another-try {background-color: #ffffff;}
+
+
+
+
+/* footer*/
+
+
+.footer-section {background-color: var(--brand-color);
+}
+
+.logo-span-white {color: #F4F4FD;
+}
+
+.footer-paragraph {color: #F4F4FD;
+    font-size: 16px;
+    line-height: 1.5;
+letter-spacing: 0.02em;}
+
+
+
+/* portfolio page */
+
+.body-portfolio {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+}
+
+
+.portfolio-button {
+    color: var(--logo-color);
+    background-color: var(--background-color-potfolio);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.portfolio-title {
+    color: var(--brand-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-paragraph {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em
+}
