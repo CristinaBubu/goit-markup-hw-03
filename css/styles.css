@@ -225,7 +225,7 @@ max-width: 264px;}
 
 /* portfolio page */
 
-.portfolio-invisible {display: none;}
+.visually-hidden {display: none;}
 
 .body-portfolio {
     font-family: 'Roboto', sans-serif;
@@ -263,7 +263,7 @@ max-width: 264px;}
     letter-spacing: 0.02em;
     border-left: px solid #E7E9FC;
     border-right: px solid #E7E9FC;
-    text-align:left
+    text-align:left;
     margin-bottom: 8px;
 }
 
@@ -292,7 +292,7 @@ column-gap: 24px;
 row-gap: 48px;
 }
 
-.portfolio-grid {calc((100% - 48px) / 3);
+.portfolio-grid {calc((100% - 72px) / 3);
 margin-left: 24px;
 margin-top: 48px;
 border-bottom: 1px solid #E7E9FC;}
