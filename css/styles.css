@@ -148,7 +148,7 @@ display:block;
 
 /* a doua sectiune */
 
-.flex-list2 {display: flex;
+.flex-list {display: flex;
 gap: 24px;
 justify-content: center;
 }
@@ -199,11 +199,7 @@ justify-content: center;
 .third-section {background-color: var(--background-color);
 padding-bottom: 120px;}
 
-.flex-list3 {
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-}
+
 
 .photo-sect-3 {width: calc((100% - 2 * 24px) / 3);
 }
@@ -226,11 +222,7 @@ padding-bottom: 120px;}
 .fourth-section {background-color: #F4F4FD;
 padding: 120px 0;}
 
-.flex-list4 {
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-}
+
 
 .another-try {background-color: #ffffff;
 border-radius: 0px 0px 4px 4px;
