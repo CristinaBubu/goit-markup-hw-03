@@ -158,6 +158,7 @@ justify-content: center;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
+
 }
 
 .second-and-fourth-section-paragraph {color: var(--text-color);
@@ -188,13 +189,20 @@ padding-bottom: 120px;}
 
 /* seciunea a patra */
 
-.fourth-section {background-color: #F4F4FD;}
+.fourth-section {background-color: #F4F4FD;
+padding: 120px 0;}
 
 .another-try {background-color: #ffffff;
-flex-basis: calc((100%-4*24)/4);}
+flex-basis: calc((100%-4*24)/4);
+border-radius: 0px 0px 4px 4px;
+}
+.employee-position {padding: 32px 0;
+}
+.sect4titles {text-align: center;
+margin-bottom: 8px;
+}
 
-
-
+.sect4paragraph {text-align: center;}
 
 /* footer*/
 
