@@ -228,7 +228,15 @@ width: calc((100% - 3 * 24px) / 4);
 
 .logo-span-white {color: #F4F4FD;
 }
-.logo-footer: {display: inline-block;
+.logo-footer: {font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--logo-color);
+    margin-right: 76px;
+    display: inline-block;
 margin-bottom: 16px;}
 
 .footer-paragraph {color: #F4F4FD;
