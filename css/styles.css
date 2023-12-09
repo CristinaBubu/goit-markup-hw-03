@@ -159,7 +159,7 @@ justify-content: center;
 .second-section {padding: 120px 0;}
 .visually-hidden {
     clip:rect(0 0 0 0);
-    clip-path: 50%;
+    clip-path: inset(50%);
     height: 1px;
     overflow: hidden;
     position: absolute;
