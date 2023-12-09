@@ -213,7 +213,7 @@ border-radius: 0px 0px 4px 4px;
     letter-spacing: 0.02em;
     text-align: center;}
 
-.imagine {calc((100% - 3 * 24px) / 4);}
+.imagine {width: calc((100% - 3 * 24px) / 4);}
 .employee-position {padding: 32px 0;
 }
 
