@@ -205,12 +205,18 @@ border-radius: 0px 0px 4px 4px;
     margin-bottom: 8px;
     text-align: center;}
 
+.fourth-section-paragraph {
+    color: var(--text-color);
+    background-color: #FFFFFFFF;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+
 .imagine {calc((100% - 3 * 24px) / 4);}
 .employee-position {padding: 32px 0;
 }
 
-
-.sect4paragraph {text-align: center;}
 
 /* footer*/
 
