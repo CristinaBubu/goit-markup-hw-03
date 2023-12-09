@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,7 +27,7 @@
   </head>
 
   <body class="body-portfolio">
-    <header>
+    <header class="header container">
       <!--Navigation bar-->
       <nav class="nav-bar">
         <!-- Logo -->
@@ -28,7 +35,7 @@
         <a class="logo link" href="./index.html"
           >Web<span class="logo-span-dark">Studio</span></a
         >
-        <ul class="list">
+        <ul class="list nav-list">
           <li><a class="nav-link link" href="./index.html">Studio</a></li>
           <li>
             <a class="nav-link link" href="./portfolio.html">Portfolio</a>
@@ -38,7 +45,7 @@
       </nav>
       <!-- Contact information -->
       <address class="address">
-        <ul class="list">
+        <ul class="list address-list">
           <li>
             <a href="mailto:info@devstudio.com" class="link-contacts link"
               >info@devstudio.com</a
@@ -54,9 +61,9 @@
     </header>
     <main>
       <section>
-        <h1>Portfolio section</h1>
+        <h1 class="portfolio-invisible">Portfolio section</h1>
         <!-- Buttons bar -->
-        <ul class="list">
+        <ul class="list buttons-list">
           <li><button type="button" class="portfolio-button">All</button></li>
           <li>
             <button type="button" class="portfolio-button">Web Site</button>
@@ -70,19 +77,20 @@
           </li>
         </ul>
         <!-- Picture section -->
-        <ul class="list">
-          <li>
+        <ul class="list flex-portfolio">
+          <li class="portfolio-grid">
             <a class="link">
               <img
                 src="./images/img-1.jpg"
                 alt="Different interfaces"
                 width="360"
               />
+
               <h2 class="portfolio-title">Banking App Interface Concept</h2>
               <p class="portfolio-paragraph">App</p>
             </a>
           </li>
-          <li>
+          <li class="portfolio-grid">
             <a class="link">
               <img
                 src="./images/img-2.jpg"
@@ -93,7 +101,7 @@
               <p class="portfolio-paragraph">Marketing</p>
             </a>
           </li>
-          <li>
+          <li class="portfolio-grid">
             <a class="link">
               <img
                 src="./images/img-3.jpg"
@@ -104,7 +112,7 @@
               <p class="portfolio-paragraph">App</p>
             </a>
           </li>
-          <li>
+          <li class="portfolio-grid">
             <a class="link">
               <img
                 src="./images/img-4.jpg"
@@ -115,7 +123,7 @@
               <p class="portfolio-paragraph">Marketing</p>
             </a>
           </li>
-          <li>
+          <li class="portfolio-grid">
             <a class="link">
               <img
                 src="./images/img-5.jpg"
@@ -126,7 +134,7 @@
               <p class="portfolio-paragraph">Design</p>
             </a>
           </li>
-          <li>
+          <li class="portfolio-grid">
             <a class="link">
               <img
                 src="./images/img-6.jpg"
@@ -137,7 +145,7 @@
               <p class="portfolio-paragraph">Marketing</p>
             </a>
           </li>
-          <li>
+          <li class="portfolio-grid">
             <a class="link">
               <img
                 src="./images/img-7.jpg"
@@ -148,7 +156,7 @@
               <p class="portfolio-paragraph">Design</p>
             </a>
           </li>
-          <li>
+          <li class="portfolio-grid">
             <a class="link">
               <img
                 src="./images/img-8.jpg"
@@ -159,7 +167,7 @@
               <p class="portfolio-paragraph">Web Site</p>
             </a>
           </li>
-          <li>
+          <li class="portfolio-grid">
             <a class="link">
               <img
                 src="./images/img-9.jpg"
