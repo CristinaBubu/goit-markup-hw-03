@@ -204,10 +204,10 @@ min-width: 264px;}
 .third-section {background-color: var(--background-color);
 padding-bottom: 120px;}
 
-.photo-sect-3 {width: 100%;
+.photo-sect-three {width: 100%;
 min-width: 360px;}
 
-.li.photo-sect-3{
+.li.photo-sect-three{
     width: calc((100% - 48px) / 3);
 }
 
