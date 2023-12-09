@@ -174,7 +174,9 @@ justify-content: center;
     white-space: nowrap;
 }
 
-.list-element-secttwo {width: calc((100% - 48px) / 3);}
+.list-element-secttwo {
+    width: calc((100% - 72px) / 4);
+}
 
 .second-and-fourth-section-mini-titles {color: var(--brand-color);
     background-color: #FFFFFF;
