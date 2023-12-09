@@ -19,7 +19,7 @@ background-color: var(--background-color);
 .body-studio {font-family: 'Roboto', sans-serif;
 }
 
-
+.container {width: 1158px;}
 /*antet*/
 
 .header {
