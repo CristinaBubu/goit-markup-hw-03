@@ -24,12 +24,10 @@ background-color: var(--background-color);
 
 .header {
 border-bottom: 1px solid #E7E9FC;
-
 }
 
-.header-div {display: flex;}
-
-.container: {width: 1158px;
+.header-div {display: flex;
+    width: 1158px;
 margin: 0 auto;
 padding: 0 15px;}
 
