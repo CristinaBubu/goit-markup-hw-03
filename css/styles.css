@@ -157,21 +157,14 @@ justify-content: center;
 }
 
 .second-section {padding: 120px 0;}
-.visually-hidden {display: none;
-/* Contain text within 1px box */
+.visually-hidden {
+    clip:rect(0 0 0 0);
+    clip-path: 50%;
     height: 1px;
     overflow: hidden;
-    width: 1px;
-    /* Keep the layout */
     position: absolute;
-    /* Remove any visible trace (e.g. background color) */
-    clip: rect(1px 1px 1px 1px);
-    /* IE6, IE7 */
-    clip: rect(1px, 1px, 1px, 1px);
-    clip-path: inset(50%);
-    /* browsers in the future */
-    /* Prevent the screen reader to skip spaces between words */
     white-space: nowrap;
+    width: 1px;
 }
 
 .list-element-secttwo {flex-basis: calc((100% - 3 * 24px) / 4);
