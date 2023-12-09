@@ -149,7 +149,7 @@ justify-content: center;
 
 .second-section {padding: 120px 0;}
 .visually-hidden {display: none;}
-list-element-sect2 {flex-basis: calc((100%-4*24px)/4);}
+.list-element-sect2 {flex-basis: calc((100%-4*24px)/4);}
 
 .second-and-fourth-section-mini-titles {color: var(--brand-color);
     background-color: #FFFFFF;
