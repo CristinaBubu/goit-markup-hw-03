@@ -100,17 +100,20 @@ padding: 24px 0;
 
 
 /* studio page styles */
-
-.section { padding: 94px 0px;}
-
 .hero-section {
     background-color: var(--brand-color);
-    padding: 188px 0;}
+    padding: 188px 0;
+}
+.section { padding: 94px 0px;}
+
+
     
 .hero-div {display: flex;
     flex-direction: column;
 justify-content: center;
-align-items: center;}   
+align-items: center;
+background-color: var(--brand-color);
+}   
 
     
 
@@ -227,7 +230,8 @@ min-width: 360px;}
 
 
 .fourth-section {background-color: #F4F4FD;
-padding: 120px 0;}
+    padding: 120px 0;
+}
 
 
 
